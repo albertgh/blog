@@ -1,6 +1,7 @@
 # CoreImage with Metal 笔记
 
 `date`: 2019-05-10
+
 ---
 
 `iOS 12` 开始 `CIKernel Language` 已被苹果标记废弃, 并推荐转而使用 `Core Image Metal Library`, 关于 shader 语法的转变以及如何生成 `.metallib`, 官方文档都有详细说明 [MetalCIKLReference](https://developer.apple.com/metal/MetalCIKLReference6.pdf), 按照文档在 `Build Settings` 中将 `Other Metal Compiler Flags` 设为 `-fcikernel`, 在 `User-Defined` 中增加 `MTLLINKER_FLAGS` 并设为 `-cikernel`, OK, demo 运行成功.
