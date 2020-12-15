@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "{{ site.theme }}";
+
 $header-bg-color-secondary: #7AAFDE;
 $header-bg-color: #24517E;
 
@@ -8,5 +10,3 @@ $header-bg-color: #24517E;
   color: #071828;
   font-weight: bold;
 }
-
-@import "{{ site.theme }}";
