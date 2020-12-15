@@ -1,6 +1,6 @@
 # CoreImage with Metal 笔记
 
-`date: 2019-05-10`
+`2019-05-10`
 
 ---
 
