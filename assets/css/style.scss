@@ -7,7 +7,12 @@ $header-bg-color-secondary: #7AAFDE;
 $header-bg-color: #24517E;
 
 .main-content {
-  h1, h4 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
    color: #004D81;
    font-weight: bold;
   }
